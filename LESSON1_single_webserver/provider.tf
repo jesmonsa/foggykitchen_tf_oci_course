@@ -1,9 +1,8 @@
-terraform {
-  required_version = ">= 0.15.0"
-  required_providers {
+terraform { # Versión de Terraform.
+  required_providers { # Proveedores requeridos.
     oci = {
-      source  = "hashicorp/oci"
-      version = "= 4.48.0"
+      source = "oracle/oci" # Fuente del proveedor de OCI.
+      version = "5.35.0" # Versión del proveedor de OCI.
     }
   }
 }
