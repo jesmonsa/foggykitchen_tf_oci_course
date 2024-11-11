@@ -19,7 +19,7 @@ variable "Subnet-CIDR" {
 }
 
 variable "Shape" {
-  default = "VM.Standard.E3.Flex"
+  default = "VM.Standard.E4.Flex"
 }
 
 variable "FlexShapeOCPUS" {
@@ -27,7 +27,7 @@ variable "FlexShapeOCPUS" {
 }
 
 variable "FlexShapeMemory" {
-  default = 1
+  default = 2
 }
 
 variable "instance_os" {
@@ -35,7 +35,7 @@ variable "instance_os" {
 }
 
 variable "linux_os_version" {
-  default = "7.9"
+  default = "8"
 }
 
 variable "service_ports" {
